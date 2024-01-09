@@ -1,0 +1,12 @@
+numbers = list(range(4, 30))
+even_numbers = []
+odd_numbers = []
+for number in numbers:
+if number % 2 == 0:
+    even_numbers.append(number)
+    print(even_numbers)
+else:
+    odd_numbers.append(number)
+    print(odd_numbers)
+
+
